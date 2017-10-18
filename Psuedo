@@ -1,0 +1,31 @@
+The game consists of multiple players and one dealer.
+The dealer deals out 2 cards, the first card is faced down and the second card is faced up
+
+The players look at their cards
+
+  If the 2 cards add up to 21:
+   say "Blackjack" to end the game
+  Else:
+   begin the game normally
+   
+The dealer asks the player to hit or stand.
+  
+  If the player chooses to hit:
+    dealer gives the player 1 card faced down
+    
+  The player looks at their cards again
+  If the player's cards add up to 21:
+    The player wins the game
+  If the player's cards add up to above 21:
+    The player is eliminated
+  Else:
+    Continue the game normally
+    
+The dealer deals out cards for the next player
+  Else if the person stands:
+    Player keeps the same cards
+    Continue to the next player
+  
+    
+    
+
