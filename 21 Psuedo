@@ -11,7 +11,7 @@ The dealer gives one card faced up and one card faced down
 The player has the option to hit or stand
 When a player hits, they are given 1 card and if their cards equal 21, they win if they were given 21 first. If their cards go above 21, they get busted/eliminated.
 If a player decides to stand, they keep their cards and then it's the next persons turn.
-Whoever gets 21 first wins the game, but if everyone's cards add up to the same number that's less than 21 and decides to stand, it's a push/tie.
+Whoever gets 21 first wins or gets closest to 21 and doesn't go over 21 wins but if everyone's cards add up to the same number that's less than 21 and decides to stand, it's a push/tie.
 VALUE OF EACH CARD:
 Aces : 1 or 11 
 Jacks, Queens, Kings, and 10 : 10
@@ -29,7 +29,7 @@ The dealer asks the player to hit or stand.
   Else if the player chooses to stand:
         the player keeps the same cards
 The player looks at their cards again
-  If the player's cards add up to 21 first:
+  If the player's cards add up to 21 first or is closest to 21 but still under 21:
     the player wins the game
   If the player's cards add up to above 21:
     the player is busted (eliminated)
