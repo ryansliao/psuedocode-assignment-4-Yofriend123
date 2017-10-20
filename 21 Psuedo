@@ -9,7 +9,7 @@ THE GAME:
 RULES:
 The dealer gives one card faced up and one card faced down
 The player has the option to hit or stand
-When a player hits, they are given 1 card and if their cards equal 21, they win. If their cards go above 21, they get busted/eliminated.
+When a player hits, they are given 1 card and if their cards equal 21, they win if they were given 21 first. If their cards go above 21, they get busted/eliminated.
 If a player decides to stand, they keep their cards and then it's the next persons turn.
 Whoever gets 21 first wins the game, but if everyone's cards add up to the same number that's less than 21 and decides to stand, it's a push/tie.
 VALUE OF EACH CARD:
