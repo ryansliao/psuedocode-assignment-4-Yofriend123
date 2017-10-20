@@ -1,0 +1,38 @@
+THE GAME:
+21 is a card game that consists of a dealer and 1 or more players.
+RULES:
+The dealer gives one card faced up and one card faced down
+The player has the option to hit or stand
+When a player hits, they are given 1 card and if their cards equal 21, they win. If their cards go above 21, they get busted/eliminated.
+If a player decides to stand, they keep their cards and then it's the next persons turn.
+Whoever gets 21 first wins the game, but if everyone's cards add up to the same number that's less than 21 and decides to stand, it's a push/tie.
+VALUE OF EACH CARD:
+Aces : 1 or 11 
+Jacks, Queens, Kings, and 10 : 10
+Cards 2 through 9 : Same value
+
+for (each player in the game * 3 rounds);
+The players look at their cards
+  If the 2 cards add up to 21:
+   say "21" to end the game
+  Else:
+   begin the game normally
+The dealer asks the player to hit or stand.
+  If the player chooses to hit:
+    dealer gives the player 1 card faced down
+  Else if the player chooses to stand:
+        the player keeps the same cards
+The player looks at their cards again
+  If the player's cards add up to 21 first:
+    the player wins the game
+  If the player's cards add up to above 21:
+    the player is busted (eliminated)
+  Else:
+    Continue the game normally
+Proceed to deal cards to the next player
+  If both players' cards are equal, less than 21, and they both stay:
+    it is a push (tie)
+
+    
+    
+
